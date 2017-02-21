@@ -1,0 +1,28 @@
+{
+  "name": "enginecal",
+  "version": "1.0.0",
+  "description": "Safe, Clean and Efficient Motoring",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikandants/node-enginecal.git"
+  },
+  "keywords": [
+    "Vehicle",
+    "Engine",
+    "Analytics"
+  ],
+  "author": "Manikandan TS <manikandan.citeee@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manikandants/node-enginecal/issues"
+  },
+  "homepage": "https://github.com/manikandants/node-enginecal#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "request": "^2.79.0"
+  }
+}

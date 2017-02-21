@@ -1,0 +1,23 @@
+{
+	"preset" : "google",
+	"validateIndentation" : 4,
+	"maximumLineLength" : 256,
+	"disallowSpaceAfterObjectKeys" : false,
+    "requireCamelCaseOrUpperCaseIdentifiers": false,
+	"jsDoc" : {
+		"checkAnnotations": {
+			"preset": "jsduck5",
+			"extra": {
+				"api": "some",
+				"apiName": "some",
+				"apiGroup": "some",
+				"apiParam": "some",
+				"apiSuccess": "some",
+				"apiVersion": "some",
+				"apiDescription": "some",
+                "returns": "some",
+                "todo": "some"
+			}
+		}
+	}
+}
